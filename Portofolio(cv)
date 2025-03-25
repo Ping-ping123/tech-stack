@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTDF-8">
+        <meta name="Viewport" content="width=device-witdh, initial-scale=1.0">
+        <title>LATIHAN 1- HTML5</title>
+    </head>
+    <body>
+        <main>
+            <Section>
+            <h1>Portofolio Saya</h1>
+            <form action="Portofolio_saya.php"></form>
+            </Section>
+        </main>
+        <header>
+            <h1>Meriyanti</h1>
+            <label for="lengkap">Web Developer|Designer|Freelance<br>
+        <header> 
+
+            <h1>Tentang Saya</h1>
+            <label for="tentang">saya adalah seorang pengembang web yang berfokus pada teknologi modern dan desain yang responsif</label>
+        </header>
+
+            <h1>Pendidikan</h1>
+            <ul>
+                <li>SMK IMMANUEL II-Pemasaran</li>
+            </ul>
+
+        <header>
+            <h1>Pengalaman Kerja</h1>
+            <ul>
+                <li>Admin Pembayaran Utang-Cahaya Manis Sejahtera (2024)</li>
+                <li>Admin Media Sosial-Toko kita (2024)</li>
+            </ul>
+        </header>
+
+        <header>
+            <h5>Keahlian</h5>
+            <ul>
+                <li>menggambar</li>
+                <li>musik</li>
+            </ul>
+
+            <img src="img_saya.gitar.html" width="100" height="100">
+
+        </header>
+            <h1>Kontak</h1>
+        <header> 
+            <!--email-->
+            <label for="email">email:meriyanti@itbss.ac.id</label><br>
+            <label for="github">github:ping-ping123</label>
+
+        </header>
+        
+
+        
