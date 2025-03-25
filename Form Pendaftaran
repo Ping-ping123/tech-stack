@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTDF-8">
+        <meta name="Viewport" content="width=device-witdh, initial-scale=1.0">
+        <title>Tugas 1- HTML5</title>
+    </head>
+    <body>
+        <header>
+            <h1>SELAMAT DATANG DI </h1>
+            <h2>UNIVERSITAS ABC</h2>
+        </header>
+    </body>
+    <nav>
+        <a href="#Beranda">beranda</a>
+        <a href="Tentang">tentang</a>
+        <a href="Kontak">kontak</a>
+    </nav>
+    <main>
+        <section>
+            <h2>FORM PENDAFTARAN SISWA BARU</h2>
+            <form action="proses_pendaftaran.php">
+                 <!--Nama lengkap-->
+                <label for="nlengkap">NAMA LENGKAP:</label><br>
+                <input type="text" id="nlengkap" name="nlengkap" value=""><br> 
+
+                 <!--Email-->
+                <label for="email">EMAIL:</label><br>
+                <input type="text" id="email" name="email" value=""><br>
+                
+                <label for="tlahir">TANGGAL LAHIR:</label><br>
+                <input type="date" id="tlahir" name="tlahir" value=""><br>
+
+            <!--Jenis Kelamin-->
+            <p> JENIS KELAMIN:</p>
+
+                <input type="radio" id="laki-laki" name="fav_language" value="laki-laki">
+                <label for="laki-laki">Laki-laki</label><br>
+
+                <input type="radio" id="perempuan" name="fav_language" value="perempuan">
+                <label for="perempuan">Perempuan</label><br>
+            
+                 <!--alamat-->
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" rows="3" required></textarea><br>
+            
+             <!--program study-->
+            <P> PROGRAM STUDY:</P>
+            <select name="program">
+                <option value="STI">Sistem Teknologi Informasi</option>
+                <option value="BD">Bisnis Digital</option>
+                <option value="KWU">Kewirausahaan</option>
+            </select><br>
+
+             <!--hobby-->
+            <p> HOBBY:</p>
+            <input type="checkbox" id="menyanyi" name="hobi[]" value="Menyanyi">
+            <label for="menyanyi">Menyanyi</label><br>
+
+            <input type="checkbox" id="menari" name="hobi[]" value="Menari">
+            <label for="menari">Menari</label><br>
+
+            <input type="checkbox" id="musik" name="hobi[]" value="Musik">
+            <label for="musik">Musik</label><br>
+
+            <input type="checkbox" id="membaca" name="hobi[]" value="Membaca">
+            <label for="membaca">Membaca</label><br>
+
+            <!--buton-->
+            <button type="submit">Daftar</button>
+
+            </form>
+        </section>
+    </main>
+</html>
