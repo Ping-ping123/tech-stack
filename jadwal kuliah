@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+    .vertical-text {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+    th {
+        background-color: #f2f2f2;
+        color: black;
+    }
+
+</style>
+</head>
+</html>
+<body>
+
+    <h1>JADWAL KULIAH STI</h1>
+
+    <table style="witdh:100%">
+        <tr>
+            <th>Shift/hari</th>
+            <th>Senin</th>
+            <th>Selasa</th>
+            <th>Rabu</th>
+            <th>Kamis</th>
+            <th>Jumat</th>
+        </tr>
+        <tr> 
+            <td>1</td>
+            <td>PWD</td>
+            <td>kosong/break</th>
+            <td>RPP</td>
+            <td rowspan="3" class="vertical-text">kosong/break</td>
+            <td rowspan="3" class="vertical-text">kosong/break</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Basis Data</td>
+            <td>Jarkom</td>
+            <td>Transformasi Digital</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Matematika Diskrit</td>
+            <td>kosong/break</td>
+            <td>Pengantar Manajemen</td>
+        </tr>
+    </table>
+</body>
