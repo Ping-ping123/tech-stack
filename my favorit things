@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LATIHAN- My Favorit Things</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: pink;
+        font-family: arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .header, footer{
+        background-color:#f06292;
+        padding: 20px;
+        text-align: center; 
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        background-color: #333;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color:white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+    }
+
+    nav ul li a:hover {
+        background-color:#555;
+    }
+
+    section {
+        padding: 20px;
+        background-color: white;
+        margin: 10px auto;
+        max-width: 700px;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+        </style>
+    </head>
+    <body> 
+        <header class="header">
+            <h1>MY FAVORITKU</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#Drama">Drama</a></li>
+                <li><a href="#Music">Music</a></li>
+                <li><a href="#Es Cream">EsCream</a></li>
+            </ul>
+        </nav>
+
+        <main> 
+            <section id="Drama">
+            <h2>Drama - The Trauma Code</h2>
+            <p>karena drama ini menceritakan seorang dokter ahli bedah jenius yang telah melakukan operasi di zona konflik di seluruh dunia,
+                dengan kemampuannya dia melakukan nya dengan benar. film ini menjadi film favorit saya karena disini banyak pelajaran yang didapatkan yaitu 
+                pentingnya memiliki kerja sama tim dalam dunia medis, melalui berbagai konflik dan dilema kita dapat memahami nilai empati, 
+                kemnusiaan dalam menghadapi trauma dan kegagalan dalam pekerjaan </p>
+                <ul>
+                    <li>penting memiliki komitmen yang tinggi</li>
+                    <li>kerja sama tim menjadi kunci</li>
+                    <li>setiap detik sangat berarti</li>
+                </ul>
+                <img src="the-trauma-code-heroes-on-call.jpg" width="300" height="315">
+            </section>
+        
+            <section id="Music">
+                <h2>Music - Pulang</h2>
+                <p> lagu ini bikin tenang dan lirik nya sangat menyentuh hati. ketika tidak arah jalan pulang, 
+                    Tuhan lah satu-satunya jalan. 
+                </p>
+                    <ul>
+                        <li>ketika kehilangan arah, Tuhan lah tujuannya</li>
+                        <li>panggilan untuk kembali</li>
+                        <li>pengharapan dan pengampunan</li>
+                    </ul>
+                <div class="music-pulang">
+                    <iframe
+                        witdh="300"
+                        height="315"
+                        src="https://youtu.be/qAzujF0AB_4?feature=shared"
+                        frameborder="0"
+                    allowfullscreen>
+                </iframe>
+                </div>
+                </section>
+
+            <section id="Es Cream">
+                <h2>Es Cream - Strawberry</h2>
+                <p>alasanya saya menyukai es cream rasa strawberry karna bentuk buah yang lucu dan warna cantik, juga rasa strawberry memiliki rasa asam dan manis
+                    rasa yang enak juga menjadi rasa favorit saya.  </p>
+                        <ul>
+                            <li>rasa strawberry identik dengan asam & manis</li>
+                            <li>tekstur lembut dan creamy yang menyatu</li>
+                            <li>warna pink dan merah yang cantik</li>
+                        </ul>
+                        <img src="escream-strawberry.jpg" width="300" height="200">
+            </section>
+        </main>
+
+     </body>
+    </html>
